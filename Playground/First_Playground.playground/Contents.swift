@@ -31,7 +31,26 @@ print(averageAge/2)
 
 // Tuples shit
 
-var randomCoords: (Int, Double) = (69, 69.5)
-let xOfRandomCoords = randomCoords.0
-let yOfRandomCoords = randomCoords.1
+let coordinates: (Int, Int) = (2, 3)
+let x: Int = coordinates.0
+let y: Int = coordinates.1
+
+let randomCoords: (conk1: Double, conk2: Int) = (23.4645 , 56)
+let firstConk: Double = randomCoords.conk1
+let secondConk: Int = randomCoords.conk2
+
+
+//Tuples Excersice
+
+let temperature: (Int, Int, Int, Double) = (10, 17, 2015, 15.7)
+
+let temperature2: (month: Int, day: Int, year: Int, averageTemperature: Double) = (10, 17, 2015, 15.7)
+
+let (day, _, _, averageTemperature) = temperature2
+
+var temperature3: (month: Int, day: Int, year: Int, averageTemperature: Double) = (10, 17, 2015, 15.7)
+temperature3.averageTemperature = 21.2
+
+
+
 
